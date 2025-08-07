@@ -1,7 +1,8 @@
 // document.addEventListener("DOMContentLoaded", function () {
 //     /* ==========================
 //        "Learn More" Button Logic
-//     ========================== */
+
+//.       ======================== */
 //     const learnMoreBtn = document.getElementById("learn-more-btn");
 //     const extraDescription = document.getElementById("extra-description");
 
