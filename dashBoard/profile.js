@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", async () => {
     // Check if user is authenticated
     const token = localStorage.getItem("token");
