@@ -8,6 +8,7 @@ function clearContent(excludeId = '') {
     });
 }
 
+
 // Reference elements
 const mockTestButtons = [
     document.getElementById('mocktest1'),
@@ -895,6 +896,7 @@ function setupReviewAnswers(questionResults) {
                     reviewContainer.parentNode.removeChild(reviewContainer);
                 }
                 
+                
                 const resultSummary = document.querySelector('.result-summary');
                 if (resultSummary) resultSummary.style.display = 'flex';
                 
@@ -1301,6 +1303,7 @@ if (startBtn) {
         initTest();
     });
 }
+
 
 const consentCheckbox = document.getElementById('consentCheckbox');
 if (consentCheckbox) {
