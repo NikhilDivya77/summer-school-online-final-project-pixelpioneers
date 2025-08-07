@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', async () => {
     // Authentication check
     const token = localStorage.getItem('token');
